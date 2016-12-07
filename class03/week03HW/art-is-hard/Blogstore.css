@@ -1,0 +1,41 @@
+.container {
+  background-color: #F1F1F1;
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.nav{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.nav a{
+  color:white;
+  
+}
+
+.article-one{
+  background-color:tomato;
+  text-align:center;
+  padding:5px;
+  margin-bottom:10px;
+  color:purple
+}
+
+.article-two{
+  background-color:tomato;
+  text-align:center;
+  padding:5px;
+  margin-bottom:10px;
+  color:green
+}
+
+.article-three{
+  background-color:tomato;
+  text-align:center;
+  padding:5px;
+  margin-bottom:10px;
+  color:yellow
+}

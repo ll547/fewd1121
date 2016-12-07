@@ -1,0 +1,13 @@
+#container{
+	width=90%
+	margin=0 auto;
+	background-color:lightgray;
+}
+
+#blog-store{background-color:black;
+}
+
+.lorem{
+	background-color: orange;
+	border:1px solid;
+}
