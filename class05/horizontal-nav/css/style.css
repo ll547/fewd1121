@@ -2,3 +2,18 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+nav{
+	background-color:gray;
+}
+
+a{
+	display: inline-block;
+	background-color:rgb(0,0,0);
+	padding: 15px;
+	color:#FFFFFF
+	text-deocration:none;
+}
+
+a:hover{
+	background-color:orange;

@@ -12,24 +12,25 @@ header {
   background: red;
 }
 
-main {
-  background: yellow;
-  // float: ;
-  // width: ;
+main{
+    float: left;
+    width: 40%;
+    background-color: yellow;
 }
 
-aside {
-  background: green;
-  // float: ;
-  // width: ;
+aside{
+    float: right;
+    width: 30%;
+    background: green;
 }
 
 footer {
   background: blue;
+  
 }
 
 .clear {
-  // clear: ;
+  clear:both ;
 }
 
 
