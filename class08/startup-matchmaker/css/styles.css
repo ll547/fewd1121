@@ -1,4 +1,96 @@
-// FONT FAMILY HELPERS :)
+/*// FONT FAMILY HELPERS :)
 // font-family: 'Oswald', sans-serif;
 // font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;*/
+
+div{
+		background-color:gray;
+		background-size:contain;
+
+	}
+
+
+#container
+nav, h1, ul{
+	border: 1px solid black;
+
+	
+}
+
+#container, .header, .footer{
+	width: 100%;
+
+}
+#container{
+	 height: 600px;
+}
+header.page-header {
+    height: 100px;
+}
+nav {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+h1{
+	float:left;
+}
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+    float: right;
+}
+
+nav ul  li{
+	display: inline-block;
+}
+h1{
+	margin: 1% 0;
+}
+nav ul {
+    margin-top: 2%;
+}
+
+.tagline{
+	text-align: center;
+}
+
+.banner{
+	background-image: url("../img/coworking.jpg");
+	height:450px;
+}
+
+.tout{
+	padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    float: left;
+    width: 27.3333%;
+    padding: 2% 3%;
+    box-shadow: 0 -1px 0 0 
+    
+}
+
+.button{
+	background-color:red;
+	height: 30px;
+	width:50%;
+	border:solid black 1px;
+	display:block;
+}
+.tout a{
+	display: block;
+	border:black;
+	height: 25px;
+	width: 125%;
+}
+
+footer{
+	background-color: black;
+	text-align:center;
+	height:20px
+	width:100%;
+}

@@ -107,6 +107,10 @@ p {
 @media (max-width: 480px) {
 	#container {
 		width: 100%;
+	
+	nav a{
+		float:none;
+	}
 	}
 }
 
