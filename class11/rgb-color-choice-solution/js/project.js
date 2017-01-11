@@ -16,11 +16,21 @@
 
 
 document.getElementById('color-button').onclick = changeColor
+	
+	var submit=document.getElementById('submit');
+	var red = document.getElementById('red');
+	var green = document.getElementById('green');
+	var blue = document.getElementById('blue');
+	var red_val;
+	var green_val;
+	var blue_val;
 
-function changeColor () {
-	var red = document.getElementById('red').value;
-	var green = document.getElementById('green').value;
-	var blue = document.getElementById('blue').value;
+submit.onclick=function(){
+	red_val = red.value;
+	green_val=green.value;
+	blue_val=blue.value;
+	console.log(red_val+" "+green_val+" "+blue_val);
+}
 
 	var colorStr = "rgb(" + red + "," + green + "," + blue + ")";
 
